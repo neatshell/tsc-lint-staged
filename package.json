@@ -1,0 +1,16 @@
+{
+  "name": "tsc-lint-staged",
+  "version": "0.1.0",
+  "description": "Enable lint-staged to run tsc only on staged files using project's tsconfig.json",
+  "license": "Apache License",
+  "author": "Claudio Stella",
+  "bin": {
+    "tsc-lint-staged": "lib/index.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "peerDependencies": {
+    "typescript": ">=3"
+  }
+}
